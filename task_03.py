@@ -25,9 +25,9 @@ def convert_temperature(temperature, output_format='c'):
     output = None
 
     if output_format == 'c':
-        output = fahrenheit_to_celsius(numTemp)
+        output = fahrenheit_to_celsius(num_temp)
 
     elif output_format == 'f':
-        output = celsius_to_fahrenheit(numTemp)
+        output = celsius_to_fahrenheit(num_temp)
 
     return output
