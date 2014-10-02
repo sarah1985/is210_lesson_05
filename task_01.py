@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 """Task 01: Defining a Function"""
 
-def bool_to_string(bvalue, short=False):
+
+def bool_to_str(bvalue, short=False):
+    """boolean to string conversion"""
 
     if bvalue and not short:
         return "Yes"
