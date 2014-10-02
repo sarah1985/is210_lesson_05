@@ -68,7 +68,7 @@ def compound_interest(principal, duration, rate, interval=12):
     total = None
 
     if rate is not None:
-        total = principal * (1 + (rate/12))**(12 * duration)
+        total = principal * (1 + (rate/interval))**(interval * duration)
 
     return total
 

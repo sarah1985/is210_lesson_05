@@ -6,22 +6,22 @@
 def celsius_to_fahrenheit(temperature):
     """Celsius to Fahrenheit conversion"""
 
-    Fahrenheit = (9*temperature/5) + 32
-    return float(Fahrenheit)
+    fahrenheit = (9 * temperature / 5) + 32
+    return float(fahrenheit)
 
 
 def fahrenheit_to_celsius(temperature):
     """Fahrenheit to Celsius conversion"""
 
-    Celsius = 5*(temperature - 32)/9
-    return float(Celsius)
+    celsius = 5 * (temperature - 32) / 9
+    return float(celsius)
 
 
 def convert_temperature(temperature, output_format='c'):
     """temperature conversion"""
 
-    numTemp = int(temperature[:-1])
-    unit = temperature.lower()[-1]
+    num_temp = int(temperature[:-1])
+    # unit = temperature.lower()[-1]
     output = None
 
     if output_format == 'c':
